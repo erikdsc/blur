@@ -3,7 +3,7 @@ Python scripts that can blur images and faces within images
 
 These scripts require OpenCV and Numpy in order to run, which can be downloaded with pip:
 
-  python -m pip install numpy opencv-python
+    python -m pip install numpy opencv-python
   
  
 ## Blur entire images
@@ -11,7 +11,7 @@ There are three different implementations for this that can be used independentl
 The different implementations give the same result, but utilize different algorithms that affect
 the execution time.  
 Implementation 1 uses native Python and is very slow.  
-Implementation 2 uses vectorization and runs very fast on mulitthreaded processors.  
+Implementation 2 uses vectorization and runs very fast on mulithreaded processors.  
 Implementation 3 uses the Numba package and runs significantly faster than implementation 1,
   but is slower than implementation 2 on most modern computers.  
 
