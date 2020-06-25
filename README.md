@@ -1,13 +1,13 @@
 # blur
 Python scripts that can blur images and faces within images
 
-These scripts requires OpenCV and Numpy in order to run, which can be downloaded with pip:
+These scripts require OpenCV and Numpy in order to run, which can be downloaded with pip:
 
   python -m pip install numpy opencv-python
   
  
 ## Blur entire images
-There are three different implementation for this that can be used independently of each other.
+There are three different implementations for this that can be used independently of each other.
 The different implementations give the same result, but utilize different algorithms that affect
 the execution time.  
 Implementation 1 uses native Python and is very slow.  
